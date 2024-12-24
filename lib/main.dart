@@ -86,7 +86,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 ;
               }),
               child: ColoredBox(
-                color: Colors.black12,
+                color: _getButtonColor(),
                 child: SizedBox(
                   height: 200,
                   width: 200,
@@ -96,7 +96,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       style: TextStyle(
                           fontSize: 38,
                           fontWeight: FontWeight.w900,
-                          color: Colors.white), //TODO для последнего задания заменить Colors.white на _getButtonColor()
+                          color: Colors.white),
                     ),
                   ),
                 ),
