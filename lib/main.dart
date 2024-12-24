@@ -96,7 +96,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       style: TextStyle(
                           fontSize: 38,
                           fontWeight: FontWeight.w900,
-                          color: Colors.white),
+                          color: Colors.white), //TODO для последнего задания заменить Colors.white на _getButtonColor()
                     ),
                   ),
                 ),
